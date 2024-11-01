@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Unlock Copy Restrictions",
+    "version": "1.0",
+    "description": "Removes restrictions on copying text from webpages.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Unlock Copy"
+    }
+  }
